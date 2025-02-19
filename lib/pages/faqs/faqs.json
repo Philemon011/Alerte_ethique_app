@@ -1,0 +1,43 @@
+[
+    {
+      "question": "Qui peut soumettre une alerte ou un signalement ?",
+      "answer": "Toute personne physique, de bonne foi, ayant connaissance des faits dans un cadre professionnel et ne recevant aucune contrepartie financière directe pour son signalement peut soumettre une alerte."
+    },
+    {
+      "question": "Puis-je soumettre un signalement de manière anonyme ?",
+      "answer": "Oui, la plateforme garantit un anonymat total. Vous pouvez vous connecter et soumettre vos alertes sans fournir de renseignements personnels."
+    },
+    {
+      "question": "Quels types de soumissions puis-je effectuer ?",
+      "answer": "Vous pouvez soumettre des signalements de comportements contraires à l'éthique, des plaintes liées à la corruption, fraude, discrimination, harcèlement, atteintes aux droits humains, blanchiment de capitaux, etc., ainsi que des suggestions pour améliorer les services."
+    },
+    {
+      "question": "Quels formats de preuves puis-je joindre à ma plainte ?",
+      "answer": "Vous pouvez joindre des images, vidéos, documents ou tout autre support numérique pour étayer votre signalement ou plainte."
+    },
+    {
+      "question": "Que se passe-t-il après la soumission d'une plainte ?",
+      "answer": "Un code de suivi est généré à la soumission de votre plainte NB: Vous devez garder jalousement ce code .Vous pouvez utiliser ce code pour consulter la suite donnée à votre signalement après une certaine période."
+    },
+    {
+      "question": "Comment garantir que ma plainte est claire et précise ?",
+      "answer": "Lors de la rédaction de votre message, veillez à fournir des informations détaillées, précises et professionnelles. Cela permettra une communication efficace et un traitement rapide."
+    },
+    {
+      "question": "Qui traite les plaintes soumises ?",
+      "answer": "Les responsables désignés examineront chaque signalement et travailleront à résoudre les problèmes identifiés."
+    },
+    {
+      "question": "Comment suis-je informé(e) de l'évolution de ma plainte ?",
+      "answer": "Vous recevrez des notifications pour chaque nouveau message concernant votre plainte. Un accusé de réception sera également envoyé au moment de la soumission."
+    },
+    {
+      "question": "Mes données sont-elles sécurisées ?",
+      "answer": "Oui, toutes les communications sur la plateforme sont sécurisées et les données sont cryptées pour garantir votre confidentialité."
+    },
+    {
+      "question": "Combien de temps mes données sont-elles conservées ?",
+      "answer": "Si aucune procédure disciplinaire ou judiciaire n’est engagée, les données sont conservées pendant deux mois après la clôture des vérifications.En cas de procédure disciplinaire ou judiciaire, les données sont conservées jusqu’au terme de la procédure."
+    }
+  ]
+  
