@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
-import 'package:lnb_ethique_app/home/home_screen.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
+import 'package:alerte_ethique/home/home_screen.dart';
+import 'package:alerte_ethique/utility/constants.dart';
 
 class AuthenticationController extends GetxController {
   
@@ -55,7 +55,7 @@ class AuthenticationController extends GetxController {
         print(json.decode(response.body).toString());
 
         Get.offAll(
-            () => const HomeScreen()); // Redirection vers la page d'accueil
+            () =>  HomeScreen()); // Redirection vers la page d'accueil
       } else {
         isLoading.value = false;
         Get.snackbar("Erreur l'ors de la création du Compte",
@@ -99,17 +99,19 @@ class AuthenticationController extends GetxController {
         savedname.value = jsonDecode(response.body)["name"];
         savedid.value = jsonDecode(response.body)["user_id"];
         savedemail.value = jsonDecode(response.body)["email"];
-        print(token.value);
-        print(savedname.value);
-        print(savedemail.value);
-        print(savedid.value);
+        // print(token.value);
+        // print(savedname.value);
+        // print(savedemail.value);
+        // print(savedid.value);
+        // print(token.value);
         box.write('token',
             token.value); // Sauvegarde le token dans la mémoire interne
         box.write('name', savedname.value);
         box.write('user_id', savedid.value);
         box.write('email', savedemail.value);
+        print('Token sauvegardé : ${box.read('token')}');
         Get.offAll(
-            () => const HomeScreen()); // Redirection vers la page d'accueil
+            () =>  HomeScreen()); // Redirection vers la page d'accueil
       } else {
         isLoading.value = false;
         Get.snackbar("Erreur l'ors de la Connexion",

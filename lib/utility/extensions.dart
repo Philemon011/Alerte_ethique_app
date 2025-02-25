@@ -1,5 +1,5 @@
 
-import 'package:lnb_ethique_app/home/provider/home_screen_provider.dart';
+import 'package:alerte_ethique/home/provider/home_screen_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 import '../core/data/data_provider.dart';

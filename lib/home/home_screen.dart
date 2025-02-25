@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:lnb_ethique_app/core/data/data_provider.dart';
-import 'package:lnb_ethique_app/home/components/home_page.dart';
-import 'package:lnb_ethique_app/home/provider/home_screen_provider.dart';
-import 'package:lnb_ethique_app/models/typeSignalement.dart';
-import 'package:lnb_ethique_app/pages/profilePage/profilePage.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
-import 'package:lnb_ethique_app/utility/extensions.dart';
-import 'package:lnb_ethique_app/widgets/custom_dropdown.dart';
+import 'package:alerte_ethique/core/data/data_provider.dart';
+import 'package:alerte_ethique/home/components/home_page.dart';
+import 'package:alerte_ethique/home/provider/home_screen_provider.dart';
+import 'package:alerte_ethique/models/typeSignalement.dart';
+import 'package:alerte_ethique/pages/profilePage/profilePage.dart';
+import 'package:alerte_ethique/utility/constants.dart';
+import 'package:alerte_ethique/utility/extensions.dart';
+import 'package:alerte_ethique/widgets/custom_dropdown.dart';
 import 'package:provider/provider.dart';
 
-import '../pages/faqs/faqsPage.dart';
 import '../pages/mesSignalements/mesSignalements.dart';
-import 'provider/home_screen_provider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -53,7 +51,6 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           HomePage(),
           MesSignalementspage(),
-          // Faqspage(),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(

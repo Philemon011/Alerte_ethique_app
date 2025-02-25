@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:lnb_ethique_app/models/api_response.dart';
-import 'package:lnb_ethique_app/models/mesSignalements.dart';
-import 'package:lnb_ethique_app/services/http_services.dart';
-import 'package:lnb_ethique_app/widgets/snack_bar_helper.dart';
+import 'package:alerte_ethique/models/api_response.dart';
+import 'package:alerte_ethique/models/mesSignalements.dart';
+import 'package:alerte_ethique/services/http_services.dart';
+import 'package:alerte_ethique/widgets/snack_bar_helper.dart';
 
 class MessignalementsProvider with ChangeNotifier {
   HttpService service = HttpService();

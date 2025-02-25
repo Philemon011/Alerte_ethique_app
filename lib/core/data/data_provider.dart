@@ -1,6 +1,6 @@
 import 'package:get_storage/get_storage.dart';
-import 'package:lnb_ethique_app/models/mesSignalements.dart';
-import 'package:lnb_ethique_app/models/status.dart';
+import 'package:alerte_ethique/models/mesSignalements.dart';
+import 'package:alerte_ethique/models/status.dart';
 import '../../models/typeSignalement.dart';
 
 import '../../models/api_response.dart';

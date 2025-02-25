@@ -1,8 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Permission pour l'accès à Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permissions pour l'accès et la modification de l'état du WiFi -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <application
-        android:label="lnb_ethique_app"
+        android:label="Alerte Ethique"
         android:name="${applicationName}"
-        android:icon="@mipmap/lnb">
+        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:exported="true"

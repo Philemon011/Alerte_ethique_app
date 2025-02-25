@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:lnb_ethique_app/core/data/data_provider.dart';
-import 'package:lnb_ethique_app/home/provider/mesSignalements_provider.dart';
-import 'package:lnb_ethique_app/models/mesSignalements.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
+import 'package:alerte_ethique/core/data/data_provider.dart';
+import 'package:alerte_ethique/home/provider/mesSignalements_provider.dart';
+import 'package:alerte_ethique/models/mesSignalements.dart';
+import 'package:alerte_ethique/utility/constants.dart';
 import 'package:provider/provider.dart';
 
 

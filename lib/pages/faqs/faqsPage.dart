@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easy_faq/flutter_easy_faq.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
+import 'package:alerte_ethique/utility/constants.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 

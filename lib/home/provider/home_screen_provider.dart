@@ -4,11 +4,11 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/services.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:intl/intl.dart';
-import 'package:lnb_ethique_app/home/provider/mesSignalements_provider.dart';
-import 'package:lnb_ethique_app/models/api_response.dart';
-import 'package:lnb_ethique_app/models/typeSignalement.dart';
-import 'package:lnb_ethique_app/services/http_services.dart';
-import 'package:lnb_ethique_app/widgets/snack_bar_helper.dart';
+import 'package:alerte_ethique/home/provider/mesSignalements_provider.dart';
+import 'package:alerte_ethique/models/api_response.dart';
+import 'package:alerte_ethique/models/typeSignalement.dart';
+import 'package:alerte_ethique/services/http_services.dart';
+import 'package:alerte_ethique/widgets/snack_bar_helper.dart';
 import 'package:get/get.dart';
 
 import '../../core/data/data_provider.dart';

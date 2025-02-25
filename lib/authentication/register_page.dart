@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:lnb_ethique_app/authentication/controllers/authentication.dart';
-import 'package:lnb_ethique_app/authentication/login_page.dart';
-import 'package:lnb_ethique_app/authentication/widgets/input_widget.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
+import 'package:alerte_ethique/authentication/controllers/authentication.dart';
+import 'package:alerte_ethique/authentication/login_page.dart';
+import 'package:alerte_ethique/authentication/widgets/input_widget.dart';
+import 'package:alerte_ethique/utility/constants.dart';
 
 
 class RegisterPage extends StatefulWidget {

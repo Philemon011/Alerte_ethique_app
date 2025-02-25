@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lnb_ethique_app/models/api_response.dart';
-import 'package:lnb_ethique_app/services/http_services.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
-import 'package:lnb_ethique_app/widgets/snack_bar_helper.dart';
+import 'package:alerte_ethique/models/api_response.dart';
+import 'package:alerte_ethique/services/http_services.dart';
+import 'package:alerte_ethique/utility/constants.dart';
+import 'package:alerte_ethique/widgets/snack_bar_helper.dart';
 
 class StatusProvider with ChangeNotifier {
   HttpService service = HttpService();

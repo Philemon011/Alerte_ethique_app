@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:lnb_ethique_app/authentication/controllers/authentication.dart';
-import 'package:lnb_ethique_app/authentication/login_page.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
+import 'package:alerte_ethique/authentication/controllers/authentication.dart';
+import 'package:alerte_ethique/authentication/login_page.dart';
+import 'package:alerte_ethique/utility/constants.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -22,6 +22,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     // final token = box.read('token');
     final name = box.read('name') ?? 'Nom non disponible';
     final email = box.read('email') ?? 'Nom non disponible';
+    final token = box.read('token') ?? 'Nom non disponible';
 
     return Scaffold(
       appBar: AppBar(
@@ -58,19 +59,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   if (response != null &&
                       response['message'] == 'User logged out successfully') {
                     // Supprimer les données de l'utilisateur dans GetStorage
-                    // box.remove('name');
-                    // box.remove('email');
-                    // box.remove('token');
-                    // box.remove('user_id');
                     box.erase();
                     // print(box.read('name'));
                     // print(box.read('user_id'));
+                    // print(box.read('token));
 
                     // Rediriger vers la page de connexion
-                    Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(builder: (context) => LoginPage()),
-                    );
+                    Get.offAll(() => LoginPage());
                   } else {
                     // Afficher un message d'erreur
                     ScaffoldMessenger.of(context).showSnackBar(

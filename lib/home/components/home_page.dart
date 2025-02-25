@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:lnb_ethique_app/home/components/status_page.dart';
-import 'package:lnb_ethique_app/home/provider/home_screen_provider.dart';
-import 'package:lnb_ethique_app/models/typeSignalement.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
-import 'package:lnb_ethique_app/utility/extensions.dart';
-import 'package:lnb_ethique_app/widgets/custom_dropdown.dart';
+import 'package:alerte_ethique/home/components/status_page.dart';
+import 'package:alerte_ethique/home/provider/home_screen_provider.dart';
+import 'package:alerte_ethique/models/typeSignalement.dart';
+import 'package:alerte_ethique/utility/constants.dart';
+import 'package:alerte_ethique/utility/extensions.dart';
+import 'package:alerte_ethique/widgets/custom_dropdown.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatelessWidget {

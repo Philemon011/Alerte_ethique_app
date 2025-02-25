@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lnb_ethique_app/home/provider/status_provider.dart';
-import 'package:lnb_ethique_app/utility/constants.dart';
+import 'package:alerte_ethique/home/provider/status_provider.dart';
+import 'package:alerte_ethique/utility/constants.dart';
 import 'package:provider/provider.dart';
 
 class StatusPage extends StatelessWidget {
